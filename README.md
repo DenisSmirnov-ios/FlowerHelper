@@ -33,7 +33,9 @@
   - фото-карусель (до 5 фото), выбор главного фото;
   - удаление фото с подтверждением;
   - автоматическая подгрузка фото из интернета, если фото удалены;
-  - редактирование даты последнего полива через встроенный календарь.
+  - редактирование даты последнего полива через встроенный календарь;
+  - ручная настройка частоты полива (каждые N дней);
+  - предупреждение при сильном отклонении от рекомендуемой частоты полива.
 - **Поиск растений**:
   - локальная база популярных комнатных растений;
   - fallback в WFO при отсутствии записи в локальном каталоге;
@@ -54,14 +56,15 @@
 ## Скриншоты
 
 <p align="center">
-  <img src="docs/screenshots/screenshot-3682.jpg" width="220" alt="Скриншот 1">
-  <img src="docs/screenshots/screenshot-3683.jpg" width="220" alt="Скриншот 2">
-  <img src="docs/screenshots/screenshot-3684.jpg" width="220" alt="Скриншот 3">
+  <img src="docs/screenshots/screenshot-01.jpg" width="220" alt="Скриншот 1">
+  <img src="docs/screenshots/screenshot-02.jpg" width="220" alt="Скриншот 2">
+  <img src="docs/screenshots/screenshot-03.jpg" width="220" alt="Скриншот 3">
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/screenshot-3685.jpg" width="220" alt="Скриншот 4">
-  <img src="docs/screenshots/screenshot-3686.jpg" width="220" alt="Скриншот 5">
+  <img src="docs/screenshots/screenshot-04.jpg" width="220" alt="Скриншот 4">
+  <img src="docs/screenshots/screenshot-05.jpg" width="220" alt="Скриншот 5">
+  <img src="docs/screenshots/screenshot-06.jpg" width="220" alt="Скриншот 6">
 </p>
 
 ---

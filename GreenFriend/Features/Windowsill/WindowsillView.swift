@@ -109,8 +109,13 @@ struct WindowsillView: View {
                     onWaterNow: {
                         markWateringNow(for: plant)
                     },
-                    onSaveWateringDates: { lastDate, nextDate in
-                        updateWateringDates(for: plant, lastWateredAt: lastDate, nextWateringDate: nextDate)
+                    onSaveWateringDates: { lastDate, nextDate, intervalDays in
+                        updateWateringSettings(
+                            for: plant,
+                            lastWateredAt: lastDate,
+                            nextWateringDate: nextDate,
+                            wateringIntervalDays: intervalDays
+                        )
                     },
                     onPhotoUpdated: {
                         syncWidgetSnapshot()
@@ -359,9 +364,15 @@ struct WindowsillView: View {
         syncWidgetSnapshot()
     }
 
-    private func updateWateringDates(for plant: Plant, lastWateredAt: Date?, nextWateringDate: Date?) {
+    private func updateWateringSettings(
+        for plant: Plant,
+        lastWateredAt: Date?,
+        nextWateringDate: Date?,
+        wateringIntervalDays: Int
+    ) {
         plant.lastWateredAt = lastWateredAt
         plant.manualNextWateringDate = nextWateringDate
+        plant.wateringIntervalDays = max(1, wateringIntervalDays)
         try? modelContext.save()
 
         NotificationManager.shared.cancelWateringReminder(for: plant)
@@ -387,10 +398,11 @@ private struct WindowsillPlantInfoSheet: View {
     @Environment(\.modelContext) private var modelContext
     let plant: Plant
     let onWaterNow: () -> Void
-    let onSaveWateringDates: (Date?, Date?) -> Void
+    let onSaveWateringDates: (Date?, Date?, Int) -> Void
     let onPhotoUpdated: () -> Void
 
     @State private var selectedLastWateringDate: Date
+    @State private var selectedWateringIntervalDays: Int
     @State private var selectedPhotoItem: PhotosPickerItem?
     @State private var slotPhotos: [Data?]
     @State private var currentSlotIndex: Int
@@ -403,7 +415,7 @@ private struct WindowsillPlantInfoSheet: View {
     init(
         plant: Plant,
         onWaterNow: @escaping () -> Void,
-        onSaveWateringDates: @escaping (Date?, Date?) -> Void,
+        onSaveWateringDates: @escaping (Date?, Date?, Int) -> Void,
         onPhotoUpdated: @escaping () -> Void
     ) {
         self.plant = plant
@@ -414,6 +426,7 @@ private struct WindowsillPlantInfoSheet: View {
         let now = Date()
         let initialLast = plant.lastWateredAt ?? now
         _selectedLastWateringDate = State(initialValue: initialLast)
+        _selectedWateringIntervalDays = State(initialValue: max(1, plant.wateringIntervalDays))
         var initialPhotos = plant.galleryPhotos()
         if initialPhotos.isEmpty, let fallback = plant.customImageData {
             initialPhotos = [fallback]
@@ -511,12 +524,22 @@ private struct WindowsillPlantInfoSheet: View {
                 }
 
                 Section(plant.name) {
-                    LabeledContent {
-                        Text("Каждые \(plant.wateringIntervalDays) дн.")
-                    } label: {
-                        Label("Полив", systemImage: "drop.fill")
-                            .foregroundStyle(.blue)
+                    Stepper(
+                        "Полив каждые \(selectedWateringIntervalDays) дн.",
+                        value: $selectedWateringIntervalDays,
+                        in: 1...30
+                    )
+
+                    if let recommendedInterval = recommendedWateringIntervalDays,
+                       isStrongDeviation(selectedWateringIntervalDays, from: recommendedInterval) {
+                        Label(
+                            "Рекомендован полив раз в \(recommendedInterval) дн.",
+                            systemImage: "exclamationmark.triangle.fill"
+                        )
+                        .font(.footnote)
+                        .foregroundStyle(.orange)
                     }
+
                     LabeledContent {
                         Text(localizedSunlightRequirement(plant.sunlightRequirement))
                     } label: {
@@ -616,7 +639,11 @@ private struct WindowsillPlantInfoSheet: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Готово") {
-                        onSaveWateringDates(selectedLastWateringDate, nil)
+                        onSaveWateringDates(
+                            selectedLastWateringDate,
+                            nil,
+                            selectedWateringIntervalDays
+                        )
                         dismiss()
                     }
                 }
@@ -642,6 +669,29 @@ private struct WindowsillPlantInfoSheet: View {
         default:
             return value
         }
+    }
+
+    private var recommendedWateringIntervalDays: Int? {
+        let source = plant.wateringNotes
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .lowercased()
+
+        guard !source.isEmpty else { return nil }
+
+        if source.contains("frequent") || source.contains("част") {
+            return 3
+        }
+        if source.contains("average") || source.contains("средн") {
+            return 7
+        }
+        if source.contains("minimum") || source.contains("редк") {
+            return 14
+        }
+        return nil
+    }
+
+    private func isStrongDeviation(_ current: Int, from recommended: Int) -> Bool {
+        abs(current - recommended) >= 4
     }
 
     private func compressImageDataIfNeeded(_ data: Data) -> Data {

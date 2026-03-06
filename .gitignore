@@ -41,3 +41,6 @@ vendor/bundle/
 
 # Logs
 *.log
+
+# Temporary local screenshots from iPhone
+IMG_*.HEIC
