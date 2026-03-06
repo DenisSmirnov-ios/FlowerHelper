@@ -65,9 +65,15 @@ final class NotificationManager {
     func rescheduleAllReminders(for plants: [Plant]) async {
         cancelAllWateringReminders()
         WidgetSyncService.shared.sync(plants: plants)
-        for plant in plants where plant.isOnWindowsill {
-            await scheduleWateringReminder(for: plant)
+        let windowsillPlants = plants.filter { $0.isOnWindowsill }
+        let nextPlantToWater = windowsillPlants.min { lhs, rhs in
+            let left = lhs.nextWateringDate ?? .distantFuture
+            let right = rhs.nextWateringDate ?? .distantFuture
+            if left != right { return left < right }
+            return lhs.createdAt > rhs.createdAt
         }
+        guard let nextPlantToWater else { return }
+        await scheduleWateringReminder(for: nextPlantToWater)
     }
 
     func cancelWateringReminder(for plant: Plant) {

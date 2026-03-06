@@ -358,7 +358,7 @@ struct WindowsillView: View {
         try? modelContext.save()
 
         Task {
-            await NotificationManager.shared.scheduleWateringReminder(for: plant)
+            await NotificationManager.shared.rescheduleAllReminders(for: plants)
         }
 
         syncWidgetSnapshot()
@@ -375,11 +375,8 @@ struct WindowsillView: View {
         plant.wateringIntervalDays = max(1, wateringIntervalDays)
         try? modelContext.save()
 
-        NotificationManager.shared.cancelWateringReminder(for: plant)
-        if plant.nextWateringDate != nil {
-            Task {
-                await NotificationManager.shared.scheduleWateringReminder(for: plant)
-            }
+        Task {
+            await NotificationManager.shared.rescheduleAllReminders(for: plants)
         }
 
         syncWidgetSnapshot()
