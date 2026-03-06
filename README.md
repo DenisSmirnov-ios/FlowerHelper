@@ -51,6 +51,21 @@
 
 ---
 
+## Скриншоты
+
+<p align="center">
+  <img src="docs/screenshots/screenshot-3682.jpg" width="220" alt="Скриншот 1">
+  <img src="docs/screenshots/screenshot-3683.jpg" width="220" alt="Скриншот 2">
+  <img src="docs/screenshots/screenshot-3684.jpg" width="220" alt="Скриншот 3">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/screenshot-3685.jpg" width="220" alt="Скриншот 4">
+  <img src="docs/screenshots/screenshot-3686.jpg" width="220" alt="Скриншот 5">
+</p>
+
+---
+
 ## Технологии
 
 - SwiftUI
