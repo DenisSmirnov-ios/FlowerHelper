@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* GreenFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* GreenFriendApp.swift */; };
+		A10000050000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000001 /* SettingsView.swift */; };
+		A10000060000000000000001 /* CareLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000060000000000000001 /* CareLog.swift */; };
+		A10000070000000000000001 /* DiagnosisRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000070000000000000001 /* DiagnosisRecord.swift */; };
+		A10000080000000000000001 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000080000000000000001 /* Plant.swift */; };
+		A100000A0000000000000001 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A0000000000000001 /* NotificationManager.swift */; };
+		A100000C0000000000000001 /* WidgetSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C0000000000000001 /* WidgetSyncService.swift */; };
+		A100000D0000000000000001 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D0000000000000001 /* AppGroup.swift */; };
+		A100000F0000000000000001 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F0000000000000001 /* RootTabView.swift */; };
+		A10000100000000000000001 /* WateringSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000100000000000000001 /* WateringSnapshot.swift */; };
+		A10000110000000000000001 /* GreenFriendWateringWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000110000000000000001 /* GreenFriendWateringWidget.swift */; };
+		A10000120000000000000001 /* GreenFriendWidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000120000000000000001 /* GreenFriendWidgetStore.swift */; };
+		A10000130000000000000001 /* GreenFriendWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000130000000000000001 /* GreenFriendWidgets.swift */; };
+		A10000140000000000000001 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D0000000000000001 /* AppGroup.swift */; };
+		A10000150000000000000001 /* WateringSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000100000000000000001 /* WateringSnapshot.swift */; };
+		A10000160000000000000001 /* GreenFriendWidgets.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = A20000160000000000000001 /* GreenFriendWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A100001A0000000000000001 /* WindowsillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001D0000000000000001 /* WindowsillView.swift */; };
+		A100001B0000000000000001 /* PerenualService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001E0000000000000001 /* PerenualService.swift */; };
+		A100001C0000000000000001 /* ManualLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001F0000000000000001 /* ManualLookupView.swift */; };
+		A100001D0000000000000001 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000200000000000000001 /* AppLanguage.swift */; };
+		A100001E0000000000000001 /* WFONameIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000210000000000000001 /* WFONameIndex.json */; };
+		A100001F0000000000000001 /* IndoorPlantsCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000220000000000000001 /* IndoorPlantsCatalog.json */; };
+		A10000200000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000230000000000000001 /* Assets.xcassets */; };
+		A10000210000000000000001 /* WidgetBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A20000240000000000000001 /* WidgetBackground.jpg */; };
+		A10000220000000000000001 /* WidgetBackgroundSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A20000250000000000000001 /* WidgetBackgroundSmall.jpg */; };
+		A10000230000000000000001 /* WidgetBackgroundMedium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A20000260000000000000001 /* WidgetBackgroundMedium.jpg */; };
+		A10000240000000000000001 /* PlantPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000270000000000000001 /* PlantPhotoView.swift */; };
+		A10000250000000000000001 /* PlantImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000280000000000000001 /* PlantImageService.swift */; };
+		A10000260000000000000001 /* WFOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000290000000000000001 /* WFOService.swift */; };
+		A10000270000000000000001 /* AppIconService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000300000000000000001 /* AppIconService.swift */; };
+		A10000280000000000000001 /* AppIconDark-120.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000310000000000000001 /* AppIconDark-120.png */; };
+		A10000290000000000000001 /* AppIconDark-152.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000320000000000000001 /* AppIconDark-152.png */; };
+		A100002A0000000000000001 /* AppIconDark-180.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000330000000000000001 /* AppIconDark-180.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A70000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40000020000000000000001;
+			remoteInfo = GreenFriendWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50000040000000000000001 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000160000000000000001 /* GreenFriendWidgets.appex in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* GreenFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFriendApp.swift; sourceTree = "<group>"; };
+		A20000050000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000060000000000000001 /* CareLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareLog.swift; sourceTree = "<group>"; };
+		A20000070000000000000001 /* DiagnosisRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisRecord.swift; sourceTree = "<group>"; };
+		A20000080000000000000001 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		A200000A0000000000000001 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A200000C0000000000000001 /* WidgetSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSyncService.swift; sourceTree = "<group>"; };
+		A200000D0000000000000001 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		A200000F0000000000000001 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A20000100000000000000001 /* WateringSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringSnapshot.swift; sourceTree = "<group>"; };
+		A20000110000000000000001 /* GreenFriendWateringWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFriendWateringWidget.swift; sourceTree = "<group>"; };
+		A20000120000000000000001 /* GreenFriendWidgetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFriendWidgetStore.swift; sourceTree = "<group>"; };
+		A20000130000000000000001 /* GreenFriendWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFriendWidgets.swift; sourceTree = "<group>"; };
+		A20000140000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000150000000000000001 /* GreenFriend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenFriend.entitlements; sourceTree = "<group>"; };
+		A20000160000000000000001 /* GreenFriendWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GreenFriendWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000170000000000000001 /* GreenFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000180000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000190000000000000001 /* GreenFriendWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenFriendWidget.entitlements; sourceTree = "<group>"; };
+		A200001D0000000000000001 /* WindowsillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsillView.swift; sourceTree = "<group>"; };
+		A200001E0000000000000001 /* PerenualService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerenualService.swift; sourceTree = "<group>"; };
+		A200001F0000000000000001 /* ManualLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualLookupView.swift; sourceTree = "<group>"; };
+		A20000200000000000000001 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		A20000210000000000000001 /* WFONameIndex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WFONameIndex.json; sourceTree = "<group>"; };
+		A20000220000000000000001 /* IndoorPlantsCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IndoorPlantsCatalog.json; sourceTree = "<group>"; };
+		A20000230000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000240000000000000001 /* WidgetBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WidgetBackground.jpg; sourceTree = "<group>"; };
+		A20000250000000000000001 /* WidgetBackgroundSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WidgetBackgroundSmall.jpg; sourceTree = "<group>"; };
+		A20000260000000000000001 /* WidgetBackgroundMedium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WidgetBackgroundMedium.jpg; sourceTree = "<group>"; };
+		A20000270000000000000001 /* PlantPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPhotoView.swift; sourceTree = "<group>"; };
+		A20000280000000000000001 /* PlantImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantImageService.swift; sourceTree = "<group>"; };
+		A20000290000000000000001 /* WFOService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFOService.swift; sourceTree = "<group>"; };
+		A20000300000000000000001 /* AppIconService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconService.swift; sourceTree = "<group>"; };
+		A20000310000000000000001 /* AppIconDark-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconDark-120.png"; sourceTree = "<group>"; };
+		A20000320000000000000001 /* AppIconDark-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconDark-152.png"; sourceTree = "<group>"; };
+		A20000330000000000000001 /* AppIconDark-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconDark-180.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000050000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A60000020000000000000001 /* GreenFriend */,
+				A60000030000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60000020000000000000001 /* GreenFriend */ = {
+			isa = PBXGroup;
+			children = (
+				A60000100000000000000001 /* App */,
+				A60000110000000000000001 /* Features */,
+				A60000120000000000000001 /* Models */,
+				A60000130000000000000001 /* Services */,
+				A60000140000000000000001 /* Shared */,
+				A60000160000000000000001 /* Resources */,
+				A60000150000000000000001 /* Widget */,
+			);
+			path = GreenFriend;
+			sourceTree = "<group>";
+		};
+		A60000030000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000170000000000000001 /* GreenFriend.app */,
+				A20000160000000000000001 /* GreenFriendWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60000100000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* GreenFriendApp.swift */,
+				A20000140000000000000001 /* Info.plist */,
+				A20000150000000000000001 /* GreenFriend.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A60000110000000000000001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A60000260000000000000001 /* ManualLookup */,
+				A60000240000000000000001 /* Settings */,
+				A60000250000000000000001 /* Windowsill */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A60000120000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000060000000000000001 /* CareLog.swift */,
+				A20000070000000000000001 /* DiagnosisRecord.swift */,
+				A20000080000000000000001 /* Plant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A60000130000000000000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A200000A0000000000000001 /* NotificationManager.swift */,
+				A20000280000000000000001 /* PlantImageService.swift */,
+				A200001E0000000000000001 /* PerenualService.swift */,
+				A20000290000000000000001 /* WFOService.swift */,
+				A20000300000000000000001 /* AppIconService.swift */,
+				A200000C0000000000000001 /* WidgetSyncService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A60000140000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A200000D0000000000000001 /* AppGroup.swift */,
+				A20000200000000000000001 /* AppLanguage.swift */,
+				A20000270000000000000001 /* PlantPhotoView.swift */,
+				A200000F0000000000000001 /* RootTabView.swift */,
+				A20000100000000000000001 /* WateringSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A60000150000000000000001 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A20000110000000000000001 /* GreenFriendWateringWidget.swift */,
+				A20000120000000000000001 /* GreenFriendWidgetStore.swift */,
+				A20000130000000000000001 /* GreenFriendWidgets.swift */,
+				A20000180000000000000001 /* Info.plist */,
+				A20000190000000000000001 /* GreenFriendWidget.entitlements */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		A60000160000000000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000230000000000000001 /* Assets.xcassets */,
+				A20000330000000000000001 /* AppIconDark-180.png */,
+				A20000320000000000000001 /* AppIconDark-152.png */,
+				A20000310000000000000001 /* AppIconDark-120.png */,
+				A20000260000000000000001 /* WidgetBackgroundMedium.jpg */,
+				A20000250000000000000001 /* WidgetBackgroundSmall.jpg */,
+				A20000240000000000000001 /* WidgetBackground.jpg */,
+				A20000220000000000000001 /* IndoorPlantsCatalog.json */,
+				A20000210000000000000001 /* WFONameIndex.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A60000240000000000000001 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A20000050000000000000001 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A60000250000000000000001 /* Windowsill */ = {
+			isa = PBXGroup;
+			children = (
+				A200001D0000000000000001 /* WindowsillView.swift */,
+			);
+			path = Windowsill;
+			sourceTree = "<group>";
+		};
+		A60000260000000000000001 /* ManualLookup */ = {
+			isa = PBXGroup;
+			children = (
+				A200001F0000000000000001 /* ManualLookupView.swift */,
+			);
+			path = ManualLookup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40000010000000000000001 /* GreenFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000010000000000000001 /* Build configuration list for PBXNativeTarget "GreenFriend" */;
+			buildPhases = (
+				A50000020000000000000001 /* Sources */,
+				A50000010000000000000001 /* Frameworks */,
+				A50000030000000000000001 /* Resources */,
+				A50000040000000000000001 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70000020000000000000001 /* PBXTargetDependency */,
+			);
+			name = GreenFriend;
+			productName = GreenFriend;
+			productReference = A20000170000000000000001 /* GreenFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A40000020000000000000001 /* GreenFriendWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000020000000000000001 /* Build configuration list for PBXNativeTarget "GreenFriendWidgets" */;
+			buildPhases = (
+				A50000060000000000000001 /* Sources */,
+				A50000050000000000000001 /* Frameworks */,
+				A50000070000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenFriendWidgets;
+			productName = GreenFriendWidgets;
+			productReference = A20000160000000000000001 /* GreenFriendWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A40000010000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A40000020000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = A90000030000000000000001 /* Build configuration list for PBXProject "GreenFriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60000010000000000000001;
+			productRefGroup = A60000030000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40000010000000000000001 /* GreenFriend */,
+				A40000020000000000000001 /* GreenFriendWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000030000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100002A0000000000000001 /* AppIconDark-180.png in Resources */,
+				A10000290000000000000001 /* AppIconDark-152.png in Resources */,
+				A10000280000000000000001 /* AppIconDark-120.png in Resources */,
+				A10000200000000000000001 /* Assets.xcassets in Resources */,
+				A100001F0000000000000001 /* IndoorPlantsCatalog.json in Resources */,
+				A100001E0000000000000001 /* WFONameIndex.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000070000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000220000000000000001 /* WidgetBackgroundSmall.jpg in Resources */,
+				A10000230000000000000001 /* WidgetBackgroundMedium.jpg in Resources */,
+				A10000210000000000000001 /* WidgetBackground.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* GreenFriendApp.swift in Sources */,
+				A10000050000000000000001 /* SettingsView.swift in Sources */,
+				A100001A0000000000000001 /* WindowsillView.swift in Sources */,
+				A100001C0000000000000001 /* ManualLookupView.swift in Sources */,
+				A10000060000000000000001 /* CareLog.swift in Sources */,
+				A10000070000000000000001 /* DiagnosisRecord.swift in Sources */,
+				A10000080000000000000001 /* Plant.swift in Sources */,
+				A100000A0000000000000001 /* NotificationManager.swift in Sources */,
+				A10000250000000000000001 /* PlantImageService.swift in Sources */,
+				A100001B0000000000000001 /* PerenualService.swift in Sources */,
+				A10000260000000000000001 /* WFOService.swift in Sources */,
+				A10000270000000000000001 /* AppIconService.swift in Sources */,
+				A100000C0000000000000001 /* WidgetSyncService.swift in Sources */,
+				A100000D0000000000000001 /* AppGroup.swift in Sources */,
+				A100001D0000000000000001 /* AppLanguage.swift in Sources */,
+				A10000240000000000000001 /* PlantPhotoView.swift in Sources */,
+				A100000F0000000000000001 /* RootTabView.swift in Sources */,
+				A10000100000000000000001 /* WateringSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000060000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000110000000000000001 /* GreenFriendWateringWidget.swift in Sources */,
+				A10000120000000000000001 /* GreenFriendWidgetStore.swift in Sources */,
+				A10000130000000000000001 /* GreenFriendWidgets.swift in Sources */,
+				A10000140000000000000001 /* AppGroup.swift in Sources */,
+				A10000150000000000000001 /* WateringSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A70000020000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40000020000000000000001 /* GreenFriendWidgets */;
+			targetProxy = A70000010000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A80000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A80000030000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenFriend/App/GreenFriend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3JYWAAL942;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GreenFriend/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvsmirnov.GreenFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80000040000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenFriend/App/GreenFriend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3JYWAAL942;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GreenFriend/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvsmirnov.GreenFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80000050000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = GreenFriend/Widget/GreenFriendWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3JYWAAL942;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GreenFriend/Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvsmirnov.GreenFriend.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80000060000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = GreenFriend/Widget/GreenFriendWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3JYWAAL942;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GreenFriend/Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvsmirnov.GreenFriend.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000010000000000000001 /* Build configuration list for PBXNativeTarget "GreenFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000030000000000000001 /* Debug */,
+				A80000040000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000020000000000000001 /* Build configuration list for PBXNativeTarget "GreenFriendWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000050000000000000001 /* Debug */,
+				A80000060000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000030000000000000001 /* Build configuration list for PBXProject "GreenFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000010000000000000001 /* Debug */,
+				A80000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30000010000000000000001 /* Project object */;
+}

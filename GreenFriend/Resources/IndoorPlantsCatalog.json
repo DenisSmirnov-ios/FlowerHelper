@@ -1,0 +1,1473 @@
+[
+  {
+    "id": 1,
+    "commonName": "African Violet",
+    "russianName": "Сенполия ионанта",
+    "scientificNames": [
+      "Saintpaulia ionantha"
+    ],
+    "aliases": [
+      "saintpaulia ionantha",
+      "сенполия фиалкоцветковая",
+      "african violet"
+    ],
+    "description": "Комнатное растение: African Violet.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 2,
+    "commonName": "Alocasia Polly",
+    "russianName": "Алоказия амазонская",
+    "scientificNames": [
+      "Alocasia amazonica"
+    ],
+    "aliases": [
+      "alocasia amazonica",
+      "алоказия амазонская",
+      "alocasia polly"
+    ],
+    "description": "Комнатное растение: Alocasia Polly.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 3,
+    "commonName": "Aloe Vera",
+    "russianName": "Алоэ вера",
+    "scientificNames": [
+      "Aloe vera"
+    ],
+    "aliases": [
+      "aloe vera",
+      "алоэ вера",
+      "aloe vera"
+    ],
+    "description": "Комнатное растение: Aloe Vera.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 4,
+    "commonName": "Anthurium",
+    "russianName": "Антуриум Андре",
+    "scientificNames": [
+      "Anthurium andraeanum"
+    ],
+    "aliases": [
+      "anthurium andraeanum",
+      "антуриум андраеанум",
+      "anthurium",
+      "антуриум андре"
+    ],
+    "description": "Комнатное растение: Anthurium.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 5,
+    "commonName": "Areca Palm",
+    "russianName": "Дипсис желтоватый",
+    "scientificNames": [
+      "Dypsis lutescens"
+    ],
+    "aliases": [
+      "dypsis lutescens",
+      "дипсис желтоватый",
+      "areca palm"
+    ],
+    "description": "Комнатное растение: Areca Palm.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 6,
+    "commonName": "Azalea",
+    "russianName": "Рододендрон Симса",
+    "scientificNames": [
+      "Rhododendron simsii"
+    ],
+    "aliases": [
+      "rhododendron simsii",
+      "азалия индийская",
+      "azalea"
+    ],
+    "description": "Комнатное растение: Azalea.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 7,
+    "commonName": "Begonia Rex",
+    "russianName": "Бегония королевская",
+    "scientificNames": [
+      "Begonia rex"
+    ],
+    "aliases": [
+      "begonia rex",
+      "бегония рекс",
+      "begonia rex"
+    ],
+    "description": "Комнатное растение: Begonia Rex.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 8,
+    "commonName": "Bird Nest Fern",
+    "russianName": "Асплениум гнездовой",
+    "scientificNames": [
+      "Asplenium nidus"
+    ],
+    "aliases": [
+      "asplenium nidus",
+      "асплениум гнездовой",
+      "bird nest fern"
+    ],
+    "description": "Комнатное растение: Bird Nest Fern.",
+    "watering": "частый",
+    "sunlight": [
+      "рассеянный свет",
+      "полутень"
+    ],
+    "careLevel": "medium",
+    "indoor": true
+  },
+  {
+    "id": 9,
+    "commonName": "Boston Fern",
+    "russianName": "Нефролепис возвышенный",
+    "scientificNames": [
+      "Nephrolepis exaltata"
+    ],
+    "aliases": [
+      "nephrolepis exaltata",
+      "нефролепис возвышенный",
+      "boston fern"
+    ],
+    "description": "Комнатное растение: Boston Fern.",
+    "watering": "частый",
+    "sunlight": [
+      "рассеянный свет",
+      "полутень"
+    ],
+    "careLevel": "medium",
+    "indoor": true
+  },
+  {
+    "id": 10,
+    "commonName": "Bunny Ear Cactus",
+    "russianName": "Опунция микродазис",
+    "scientificNames": [
+      "Opuntia microdasys"
+    ],
+    "aliases": [
+      "opuntia microdasys",
+      "опунция мелковолосистая",
+      "bunny ear cactus"
+    ],
+    "description": "Комнатное растение: Bunny Ear Cactus.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 11,
+    "commonName": "Calathea Orbifolia",
+    "russianName": "Калатея круглолистная",
+    "scientificNames": [
+      "Calathea orbifolia"
+    ],
+    "aliases": [
+      "calathea orbifolia",
+      "калатея орбифолия",
+      "calathea orbifolia"
+    ],
+    "description": "Комнатное растение: Calathea Orbifolia.",
+    "watering": "частый",
+    "sunlight": [
+      "рассеянный свет",
+      "полутень"
+    ],
+    "careLevel": "medium",
+    "indoor": true
+  },
+  {
+    "id": 12,
+    "commonName": "Camellia",
+    "russianName": "Камелия японская",
+    "scientificNames": [
+      "Camellia japonica"
+    ],
+    "aliases": [
+      "camellia japonica",
+      "камелия японская",
+      "camellia"
+    ],
+    "description": "Комнатное растение: Camellia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 13,
+    "commonName": "Cattleya",
+    "russianName": "Каттлея губастая",
+    "scientificNames": [
+      "Cattleya labiata"
+    ],
+    "aliases": [
+      "cattleya labiata",
+      "каттлея губастая",
+      "cattleya"
+    ],
+    "description": "Комнатное растение: Cattleya.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 14,
+    "commonName": "Chinese Evergreen",
+    "russianName": "Аглаонема изменчивая",
+    "scientificNames": [
+      "Aglaonema commutatum"
+    ],
+    "aliases": [
+      "aglaonema commutatum",
+      "аглаонема изменчивая",
+      "chinese evergreen"
+    ],
+    "description": "Комнатное растение: Chinese Evergreen.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 15,
+    "commonName": "Christmas Cactus",
+    "russianName": "Шлюмбергера усеченная",
+    "scientificNames": [
+      "Schlumbergera truncata"
+    ],
+    "aliases": [
+      "schlumbergera truncata",
+      "шлюмбергера усеченная",
+      "christmas cactus"
+    ],
+    "description": "Комнатное растение: Christmas Cactus.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 16,
+    "commonName": "Clivia",
+    "russianName": "Кливия миниата",
+    "scientificNames": [
+      "Clivia miniata"
+    ],
+    "aliases": [
+      "clivia miniata",
+      "кливия миниата",
+      "clivia"
+    ],
+    "description": "Комнатное растение: Clivia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 17,
+    "commonName": "Coffee Plant",
+    "russianName": "Кофе аравийский",
+    "scientificNames": [
+      "Coffea arabica"
+    ],
+    "aliases": [
+      "coffea arabica",
+      "кофе арабика",
+      "coffee plant"
+    ],
+    "description": "Комнатное растение: Coffee Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 18,
+    "commonName": "Coleus",
+    "russianName": "Колеус скутеллариоидес",
+    "scientificNames": [
+      "Coleus scutellarioides"
+    ],
+    "aliases": [
+      "coleus scutellarioides",
+      "колеус блюма",
+      "coleus"
+    ],
+    "description": "Комнатное растение: Coleus.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 19,
+    "commonName": "Croton",
+    "russianName": "Кодиеум пестрый",
+    "scientificNames": [
+      "Codiaeum variegatum"
+    ],
+    "aliases": [
+      "codiaeum variegatum",
+      "кодиеум пестрый",
+      "croton"
+    ],
+    "description": "Комнатное растение: Croton.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 20,
+    "commonName": "Crown of Thorns",
+    "russianName": "Молочай Миля",
+    "scientificNames": [
+      "Euphorbia milii"
+    ],
+    "aliases": [
+      "euphorbia milii",
+      "молочай миля",
+      "crown of thorns"
+    ],
+    "description": "Комнатное растение: Crown of Thorns.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 21,
+    "commonName": "Cyclamen",
+    "russianName": "Цикламен персидский",
+    "scientificNames": [
+      "Cyclamen persicum"
+    ],
+    "aliases": [
+      "cyclamen persicum",
+      "цикламен персидский",
+      "cyclamen"
+    ],
+    "description": "Комнатное растение: Cyclamen.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 22,
+    "commonName": "Dendrobium",
+    "russianName": "Дендробиум благородный",
+    "scientificNames": [
+      "Dendrobium nobile"
+    ],
+    "aliases": [
+      "dendrobium nobile",
+      "дендробиум благородный",
+      "dendrobium"
+    ],
+    "description": "Комнатное растение: Dendrobium.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 23,
+    "commonName": "Dieffenbachia",
+    "russianName": "Диффенбахия сегуина",
+    "scientificNames": [
+      "Dieffenbachia seguine"
+    ],
+    "aliases": [
+      "dieffenbachia seguine",
+      "диффенбахия сегуина",
+      "dieffenbachia"
+    ],
+    "description": "Комнатное растение: Dieffenbachia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 24,
+    "commonName": "Dracaena Fragrans",
+    "russianName": "Драцена душистая",
+    "scientificNames": [
+      "Dracaena fragrans"
+    ],
+    "aliases": [
+      "dracaena fragrans",
+      "драцена душистая",
+      "dracaena fragrans"
+    ],
+    "description": "Комнатное растение: Dracaena Fragrans.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 25,
+    "commonName": "Dracaena Marginata",
+    "russianName": "Драцена окаймленная",
+    "scientificNames": [
+      "Dracaena marginata"
+    ],
+    "aliases": [
+      "dracaena marginata",
+      "драцена окаймленная",
+      "dracaena marginata"
+    ],
+    "description": "Комнатное растение: Dracaena Marginata.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 26,
+    "commonName": "Easter Cactus",
+    "russianName": "Хатиора Гертнера",
+    "scientificNames": [
+      "Hatiora gaertneri"
+    ],
+    "aliases": [
+      "hatiora gaertneri",
+      "хатиора гертнера",
+      "easter cactus"
+    ],
+    "description": "Комнатное растение: Easter Cactus.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 27,
+    "commonName": "Echeveria",
+    "russianName": "Эхеверия изящная",
+    "scientificNames": [
+      "Echeveria elegans"
+    ],
+    "aliases": [
+      "echeveria elegans",
+      "эхеверия изящная",
+      "echeveria"
+    ],
+    "description": "Комнатное растение: Echeveria.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 28,
+    "commonName": "Echinopsis",
+    "russianName": "Эхинопсис оксигона",
+    "scientificNames": [
+      "Echinopsis oxygona"
+    ],
+    "aliases": [
+      "echinopsis oxygona",
+      "эхинопсис оксигон",
+      "echinopsis"
+    ],
+    "description": "Комнатное растение: Echinopsis.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 29,
+    "commonName": "English Ivy",
+    "russianName": "Плющ обыкновенный",
+    "scientificNames": [
+      "Hedera helix"
+    ],
+    "aliases": [
+      "hedera helix",
+      "плющ обыкновенный",
+      "english ivy"
+    ],
+    "description": "Комнатное растение: English Ivy.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 30,
+    "commonName": "Euphorbia Trigona",
+    "russianName": "Молочай трёхгранный",
+    "scientificNames": [
+      "Euphorbia trigona"
+    ],
+    "aliases": [
+      "euphorbia trigona",
+      "молочай трёхгранный",
+      "euphorbia trigona"
+    ],
+    "description": "Комнатное растение: Euphorbia Trigona.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 31,
+    "commonName": "Fiddle Leaf Fig",
+    "russianName": "Фикус лировидный",
+    "scientificNames": [
+      "Ficus lyrata"
+    ],
+    "aliases": [
+      "ficus lyrata",
+      "фикус лировидный",
+      "fiddle leaf fig"
+    ],
+    "description": "Комнатное растение: Fiddle Leaf Fig.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 32,
+    "commonName": "Fittonia",
+    "russianName": "Фиттония беложильчатая",
+    "scientificNames": [
+      "Fittonia albivenis"
+    ],
+    "aliases": [
+      "fittonia albivenis",
+      "фиттония беложильчатая",
+      "fittonia"
+    ],
+    "description": "Комнатное растение: Fittonia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 33,
+    "commonName": "Gardenia",
+    "russianName": "Гардения жасминовидная",
+    "scientificNames": [
+      "Gardenia jasminoides"
+    ],
+    "aliases": [
+      "gardenia jasminoides",
+      "гардения жасминовидная",
+      "gardenia"
+    ],
+    "description": "Комнатное растение: Gardenia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 34,
+    "commonName": "Geranium",
+    "russianName": "Пеларгония зональная",
+    "scientificNames": [
+      "Pelargonium zonale"
+    ],
+    "aliases": [
+      "pelargonium zonale",
+      "пеларгония зональная",
+      "geranium"
+    ],
+    "description": "Комнатное растение: Geranium.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 35,
+    "commonName": "Golden Pothos",
+    "russianName": "Эпипремнум золотистый",
+    "scientificNames": [
+      "Epipremnum aureum"
+    ],
+    "aliases": [
+      "epipremnum aureum",
+      "эпипремнум золотистый",
+      "golden pothos"
+    ],
+    "description": "Комнатное растение: Golden Pothos.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 36,
+    "commonName": "Goldfish Plant",
+    "russianName": "Нематантус грегариус",
+    "scientificNames": [
+      "Nematanthus gregarius"
+    ],
+    "aliases": [
+      "nematanthus gregarius",
+      "нематантус грегариуса",
+      "goldfish plant"
+    ],
+    "description": "Комнатное растение: Goldfish Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 37,
+    "commonName": "Haworthia",
+    "russianName": "Хавортия оттянутая",
+    "scientificNames": [
+      "Haworthia attenuata"
+    ],
+    "aliases": [
+      "haworthia attenuata",
+      "хавортия полосатая",
+      "haworthia"
+    ],
+    "description": "Комнатное растение: Haworthia.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 38,
+    "commonName": "Heartleaf Philodendron",
+    "russianName": "Филодендрон сердцелистный",
+    "scientificNames": [
+      "Philodendron hederaceum"
+    ],
+    "aliases": [
+      "philodendron hederaceum",
+      "филодендрон сердцелистный",
+      "heartleaf philodendron"
+    ],
+    "description": "Комнатное растение: Heartleaf Philodendron.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 39,
+    "commonName": "Hibiscus",
+    "russianName": "Гибискус китайский",
+    "scientificNames": [
+      "Hibiscus rosa-sinensis"
+    ],
+    "aliases": [
+      "hibiscus rosa-sinensis",
+      "гибискус китайский",
+      "hibiscus"
+    ],
+    "description": "Комнатное растение: Hibiscus.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 40,
+    "commonName": "Hoya Carnosa",
+    "russianName": "Хойя мясистая",
+    "scientificNames": [
+      "Hoya carnosa"
+    ],
+    "aliases": [
+      "hoya carnosa",
+      "хойя мясистая",
+      "hoya carnosa"
+    ],
+    "description": "Комнатное растение: Hoya Carnosa.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 41,
+    "commonName": "Impatiens",
+    "russianName": "Бальзамин Уоллера",
+    "scientificNames": [
+      "Impatiens walleriana"
+    ],
+    "aliases": [
+      "impatiens walleriana",
+      "бальзамин уоллера",
+      "impatiens"
+    ],
+    "description": "Комнатное растение: Impatiens.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 42,
+    "commonName": "Jade Plant",
+    "russianName": "Крассула овальная",
+    "scientificNames": [
+      "Crassula ovata"
+    ],
+    "aliases": [
+      "crassula ovata",
+      "крассула овальная",
+      "jade plant"
+    ],
+    "description": "Комнатное растение: Jade Plant.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 43,
+    "commonName": "Jasmine",
+    "russianName": "Жасмин самбак",
+    "scientificNames": [
+      "Jasminum sambac"
+    ],
+    "aliases": [
+      "jasminum sambac",
+      "жасмин самбак",
+      "jasmine"
+    ],
+    "description": "Комнатное растение: Jasmine.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 44,
+    "commonName": "Kalanchoe",
+    "russianName": "Каланхоэ Блоссфельда",
+    "scientificNames": [
+      "Kalanchoe blossfeldiana"
+    ],
+    "aliases": [
+      "kalanchoe blossfeldiana",
+      "каланхоэ блоссфельда",
+      "kalanchoe"
+    ],
+    "description": "Комнатное растение: Kalanchoe.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 45,
+    "commonName": "Kentia Palm",
+    "russianName": "Ховея форстериана",
+    "scientificNames": [
+      "Howea forsteriana"
+    ],
+    "aliases": [
+      "howea forsteriana",
+      "ховея форстера",
+      "kentia palm"
+    ],
+    "description": "Комнатное растение: Kentia Palm.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 46,
+    "commonName": "Lemon Tree",
+    "russianName": "Цитрус лимон",
+    "scientificNames": [
+      "Citrus limon"
+    ],
+    "aliases": [
+      "citrus limon",
+      "лимон комнатный",
+      "lemon tree"
+    ],
+    "description": "Комнатное растение: Lemon Tree.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 47,
+    "commonName": "Lipstick Plant",
+    "russianName": "Эсхинантус укореняющийся",
+    "scientificNames": [
+      "Aeschynanthus radicans"
+    ],
+    "aliases": [
+      "aeschynanthus radicans",
+      "эсхинантус прекрасный",
+      "lipstick plant"
+    ],
+    "description": "Комнатное растение: Lipstick Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 48,
+    "commonName": "Mammillaria",
+    "russianName": "Маммиллярия удлиненная",
+    "scientificNames": [
+      "Mammillaria elongata"
+    ],
+    "aliases": [
+      "mammillaria elongata",
+      "маммиллярия удлиненная",
+      "mammillaria"
+    ],
+    "description": "Комнатное растение: Mammillaria.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 49,
+    "commonName": "Money Tree",
+    "russianName": "Пахира водная",
+    "scientificNames": [
+      "Pachira aquatica"
+    ],
+    "aliases": [
+      "pachira aquatica",
+      "пахира водная",
+      "money tree"
+    ],
+    "description": "Комнатное растение: Money Tree.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 50,
+    "commonName": "Monstera",
+    "russianName": "Монстера деликатесная",
+    "scientificNames": [
+      "Monstera deliciosa"
+    ],
+    "aliases": [
+      "monstera deliciosa",
+      "монстера деликатесная",
+      "monstera"
+    ],
+    "description": "Комнатное растение: Monstera.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 51,
+    "commonName": "Moon Cactus",
+    "russianName": "Гимнокалициум Михановича",
+    "scientificNames": [
+      "Gymnocalycium mihanovichii"
+    ],
+    "aliases": [
+      "gymnocalycium mihanovichii",
+      "гимнокалициум михановича",
+      "moon cactus"
+    ],
+    "description": "Комнатное растение: Moon Cactus.",
+    "watering": "редкий",
+    "sunlight": [
+      "солнце",
+      "полутень"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 52,
+    "commonName": "Oncidium",
+    "russianName": "Онцидиум извилистый",
+    "scientificNames": [
+      "Oncidium flexuosum"
+    ],
+    "aliases": [
+      "oncidium flexuosum",
+      "онцидиум извилистый",
+      "oncidium"
+    ],
+    "description": "Комнатное растение: Oncidium.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 53,
+    "commonName": "Parlor Palm",
+    "russianName": "Хамедорея изящная",
+    "scientificNames": [
+      "Chamaedorea elegans"
+    ],
+    "aliases": [
+      "chamaedorea elegans",
+      "хамедорея изящная",
+      "parlor palm"
+    ],
+    "description": "Комнатное растение: Parlor Palm.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 54,
+    "commonName": "Peace Lily",
+    "russianName": "Спатифиллум Уоллиса",
+    "scientificNames": [
+      "Spathiphyllum wallisii"
+    ],
+    "aliases": [
+      "spathiphyllum wallisii",
+      "спатифиллум уоллиса",
+      "peace lily"
+    ],
+    "description": "Комнатное растение: Peace Lily.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 55,
+    "commonName": "Peperomia Obtusifolia",
+    "russianName": "Пеперомия туполистная",
+    "scientificNames": [
+      "Peperomia obtusifolia"
+    ],
+    "aliases": [
+      "peperomia obtusifolia",
+      "пеперомия туполистная",
+      "peperomia obtusifolia"
+    ],
+    "description": "Комнатное растение: Peperomia Obtusifolia.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 56,
+    "commonName": "Phalaenopsis",
+    "russianName": "Фаленопсис приятный",
+    "scientificNames": [
+      "Phalaenopsis amabilis"
+    ],
+    "aliases": [
+      "phalaenopsis amabilis",
+      "фаленопсис приятный",
+      "phalaenopsis"
+    ],
+    "description": "Комнатное растение: Phalaenopsis.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 57,
+    "commonName": "Pilea",
+    "russianName": "Пилея пеперомиевидная",
+    "scientificNames": [
+      "Pilea peperomioides"
+    ],
+    "aliases": [
+      "pilea peperomioides",
+      "пилея пеперомиевидная",
+      "pilea"
+    ],
+    "description": "Комнатное растение: Pilea.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 58,
+    "commonName": "Prayer Plant",
+    "russianName": "Маранта беложильчатая",
+    "scientificNames": [
+      "Maranta leuconeura"
+    ],
+    "aliases": [
+      "maranta leuconeura",
+      "маранта беложильчатая",
+      "prayer plant"
+    ],
+    "description": "Комнатное растение: Prayer Plant.",
+    "watering": "частый",
+    "sunlight": [
+      "рассеянный свет",
+      "полутень"
+    ],
+    "careLevel": "medium",
+    "indoor": true
+  },
+  {
+    "id": 59,
+    "commonName": "Primrose",
+    "russianName": "Примула обратноконическая",
+    "scientificNames": [
+      "Primula obconica"
+    ],
+    "aliases": [
+      "primula obconica",
+      "примула обратноконическая",
+      "primrose"
+    ],
+    "description": "Комнатное растение: Primrose.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 60,
+    "commonName": "Rhipsalis",
+    "russianName": "Рхипсалис баккифера",
+    "scientificNames": [
+      "Rhipsalis baccifera"
+    ],
+    "aliases": [
+      "rhipsalis baccifera",
+      "рипсалис ягодоносный",
+      "rhipsalis"
+    ],
+    "description": "Комнатное растение: Rhipsalis.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 61,
+    "commonName": "Rubber Plant",
+    "russianName": "Фикус каучуконосный",
+    "scientificNames": [
+      "Ficus elastica"
+    ],
+    "aliases": [
+      "ficus elastica",
+      "фикус каучуконосный",
+      "rubber plant"
+    ],
+    "description": "Комнатное растение: Rubber Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 62,
+    "commonName": "Schefflera",
+    "russianName": "Шеффлера древовидная",
+    "scientificNames": [
+      "Schefflera arboricola"
+    ],
+    "aliases": [
+      "schefflera arboricola",
+      "шеффлера древовидная",
+      "schefflera"
+    ],
+    "description": "Комнатное растение: Schefflera.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 63,
+    "commonName": "Scindapsus Pictus",
+    "russianName": "Сциндапсус расписной",
+    "scientificNames": [
+      "Scindapsus pictus"
+    ],
+    "aliases": [
+      "scindapsus pictus",
+      "сциндапсус расписной",
+      "scindapsus pictus"
+    ],
+    "description": "Комнатное растение: Scindapsus Pictus.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 64,
+    "commonName": "Snake Plant",
+    "russianName": "Сансевиерия трёхполосная",
+    "scientificNames": [
+      "Dracaena trifasciata"
+    ],
+    "aliases": [
+      "dracaena trifasciata",
+      "сансевиерия трёхполосная",
+      "snake plant"
+    ],
+    "description": "Комнатное растение: Snake Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 65,
+    "commonName": "Spider Plant",
+    "russianName": "Хлорофитум хохлатый",
+    "scientificNames": [
+      "Chlorophytum comosum"
+    ],
+    "aliases": [
+      "chlorophytum comosum",
+      "хлорофитум хохлатый",
+      "spider plant"
+    ],
+    "description": "Комнатное растение: Spider Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 66,
+    "commonName": "Syngonium",
+    "russianName": "Сингониум ножколистный",
+    "scientificNames": [
+      "Syngonium podophyllum"
+    ],
+    "aliases": [
+      "syngonium podophyllum",
+      "сингониум ножколистный",
+      "syngonium"
+    ],
+    "description": "Комнатное растение: Syngonium.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 67,
+    "commonName": "Tradescantia Zebrina",
+    "russianName": "Традесканция зебрина",
+    "scientificNames": [
+      "Tradescantia zebrina"
+    ],
+    "aliases": [
+      "tradescantia zebrina",
+      "традесканция зебрина",
+      "tradescantia zebrina"
+    ],
+    "description": "Комнатное растение: Tradescantia Zebrina.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 68,
+    "commonName": "Weeping Fig",
+    "russianName": "Фикус Бенджамина",
+    "scientificNames": [
+      "Ficus benjamina"
+    ],
+    "aliases": [
+      "ficus benjamina",
+      "фикус бенджамина",
+      "weeping fig"
+    ],
+    "description": "Комнатное растение: Weeping Fig.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 69,
+    "commonName": "Yucca Cane",
+    "russianName": "Юкка гигантская",
+    "scientificNames": [
+      "Yucca gigantea"
+    ],
+    "aliases": [
+      "yucca gigantea",
+      "юкка гигантская",
+      "yucca cane"
+    ],
+    "description": "Комнатное растение: Yucca Cane.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  },
+  {
+    "id": 70,
+    "commonName": "ZZ Plant",
+    "russianName": "Замиокулькас замиелистный",
+    "scientificNames": [
+      "Zamioculcas zamiifolia"
+    ],
+    "aliases": [
+      "zamioculcas zamiifolia",
+      "замиокулькас замиелистный",
+      "zz plant"
+    ],
+    "description": "Комнатное растение: ZZ Plant.",
+    "watering": "средний",
+    "sunlight": [
+      "полутень",
+      "рассеянный свет"
+    ],
+    "careLevel": "easy",
+    "indoor": true
+  }
+]

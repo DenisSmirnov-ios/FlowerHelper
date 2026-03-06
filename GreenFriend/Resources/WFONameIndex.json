@@ -1,0 +1,212 @@
+[
+  {
+    "query": "Monstera deliciosa",
+    "wfo_id": "wfo-0000245734",
+    "full_name_plain": "Monstera deliciosa Liebm.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Ficus elastica",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Dracaena trifasciata",
+    "wfo_id": "wfo-0001424422",
+    "full_name_plain": "Dracaena trifasciata (Prain) Mabb.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Zamioculcas zamiifolia",
+    "wfo_id": "wfo-0000335147",
+    "full_name_plain": "Zamioculcas zamiifolia (G.Lodd.) Engl.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Epipremnum aureum",
+    "wfo_id": "wfo-0000952367",
+    "full_name_plain": "Epipremnum aureum (Linden & André) G.S.Bunting",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Philodendron hederaceum",
+    "wfo_id": "wfo-0000268684",
+    "full_name_plain": "Philodendron hederaceum (Jacq.) Schott",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Spathiphyllum wallisii",
+    "wfo_id": "wfo-0000312060",
+    "full_name_plain": "Spathiphyllum wallisii Regel",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Chlorophytum comosum",
+    "wfo_id": "wfo-0000763291",
+    "full_name_plain": "Chlorophytum comosum (Thunb.) Jacques",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Aloe vera",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Crassula ovata",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Chamaedorea elegans",
+    "wfo_id": "wfo-0000837986",
+    "full_name_plain": "Chamaedorea elegans Mart.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Dypsis lutescens",
+    "wfo_id": "wfo-0000947094",
+    "full_name_plain": "Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Aglaonema commutatum",
+    "wfo_id": "wfo-0000916353",
+    "full_name_plain": "Aglaonema commutatum Schott",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Goeppertia makoyana",
+    "wfo_id": "wfo-0001317754",
+    "full_name_plain": "Goeppertia makoyana (É.Morren) Borchs. & S.Suárez",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Anthurium andraeanum",
+    "wfo_id": "wfo-0000221364",
+    "full_name_plain": "Anthurium andraeanum Linden ex André",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Phalaenopsis amabilis",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Saintpaulia ionantha",
+    "wfo_id": "wfo-0000497241",
+    "full_name_plain": "Saintpaulia ionantha H.Wendl.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Begonia rex",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Nephrolepis exaltata",
+    "wfo_id": "wfo-0001109173",
+    "full_name_plain": "Nephrolepis exaltata (L.) Schott",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Hedera helix",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Kalanchoe blossfeldiana",
+    "wfo_id": "wfo-0001299371",
+    "full_name_plain": "Kalanchoe blossfeldiana Poelln.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Pelargonium zonale",
+    "wfo_id": "wfo-0000467361",
+    "full_name_plain": "Pelargonium zonale (L.) L'Hér.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Dracaena marginata",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Schefflera arboricola",
+    "wfo_id": "wfo-0000305642",
+    "full_name_plain": "Schefflera arboricola (Hayata) Merr.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Dieffenbachia seguine",
+    "wfo_id": "wfo-0000943374",
+    "full_name_plain": "Dieffenbachia seguine (Jacq.) Schott",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Codiaeum variegatum",
+    "wfo_id": "wfo-0000905170",
+    "full_name_plain": "Codiaeum variegatum (L.) A.Juss.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Coleus scutellarioides",
+    "wfo_id": "wfo-0000916046",
+    "full_name_plain": "Coleus scutellarioides (L.) Benth.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Pachira aquatica",
+    "wfo_id": "wfo-0000397427",
+    "full_name_plain": "Pachira aquatica Aubl.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Ficus lyrata",
+    "wfo_id": "wfo-0001084874",
+    "full_name_plain": "Ficus lyrata Warb.",
+    "classification_version": "2025-12",
+    "error": false
+  },
+  {
+    "query": "Strelitzia nicolai",
+    "wfo_id": null,
+    "full_name_plain": null,
+    "classification_version": "2025-12",
+    "error": false
+  }
+]
